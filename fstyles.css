@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+	text-align: center;
+	margin-top: 3%;
+	color: #5565f1;
+}
+nav {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+	margin-right: 6%;
+	margin-bottom: 3%;
+}
+nav a {
+	text-decoration: none;
+	color: #000;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: #6876f2;
+}
+h2 {
+	text-align: center;
+	color: #6876f2;
+}
+main {
+	background: #f0f0fb;
+	border-radius: 10px;
+	border: 1px solid #000;
+	margin: 6%;
+	min-width: 60%;
+	padding: 4%;
+}
+#submit {
+	margin-top: 1rem;
+	margin-left: 45%;
+	padding: 1.5%;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	color: #ececec;
+}
+#submit:hover {
+	cursor: pointer;
+}
+.line-break {
+	display: block;
+}
+.clay {
+	background: rgb(85, 101, 241);
+	border-radius: 10px;
+	box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.25),
+		/* Outset shadow */ inset -8px -8px 12px 0 rgba(0, 0, 0, 0.25),
+		/* Dark inset shadow */ inset 8px 8px 12px 0 rgba(255, 255, 255, 0.4); /* Light inset shadow */
+	border: none;
+}
+.form-error {
+	font-weight: bold;
+	color: #c00;
+}
+.italic {
+	font-style: italic;
+}
+.bold {
+	font-weight: bold;
+}
